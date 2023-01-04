@@ -17,7 +17,7 @@ public class MysqlCon {
 			Statement stmt=conn.createStatement();  
 			ResultSet rs=stmt.executeQuery("select * from profile");  
 			while(rs.next())  
-				System.out.println(rs.getInt(1)+"  "+rs.getString(2)+"  "+rs.getString(3));  
+				System.out.println(rs.getInt("USERID")+"  "+rs.getString("USERNAME")+"  "+rs.getString("USEREMAIL"));  
 			conn.close();  
 		}catch(Exception e){ System.out.println(e);}  
 	}  

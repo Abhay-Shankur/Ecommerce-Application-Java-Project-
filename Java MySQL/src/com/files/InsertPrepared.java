@@ -26,7 +26,7 @@ public class InsertPrepared {
 		MyCon.changeToUser();
 		try {
 			Connection conn =MyCon.getConnection();
-			PreparedStatement stmt=conn.prepareStatement("insert into profile(Name,Email,Phone,Password,DOB,Address,City,State,Country) values(?,?,?,?,?,?,?,?,?)");  
+			PreparedStatement stmt=conn.prepareStatement("insert into profile(USERNAME,USEREMAIL,USERPHONE,USERPASSWORD,DOB,ADDRESS,CITY,STATE,COUNTRY) values(?,?,?,?,?,?,?,?,?)");  
 //			stmt.setInt(1, null);//1 specifies the first parameter in the query  
 			stmt.setString(1,"Akash");
 			stmt.setString(2,"akash@gmail.com");

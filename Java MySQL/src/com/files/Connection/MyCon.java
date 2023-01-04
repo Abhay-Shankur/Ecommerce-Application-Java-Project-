@@ -8,7 +8,7 @@ public class MyCon {
 	final static private String ATTR="?allowPublicKeyRetrieval=true&useSSL=false";
 	static private String USERNAME="anonymous";
 	static private String PASSWORD="anonymous@3812";
-	final static private String DBNAME="db";
+	final static private String DBNAME="ecomdb";
 	
 //	For Registered User :
 //	final static private String HOST="192.168.1.14";
@@ -28,37 +28,49 @@ public class MyCon {
 	
 	private static Connection conn;
 	
-	static {
-		try {
-			Class.forName("com.mysql.cj.jdbc.Driver");
-			conn=DriverManager.getConnection("jdbc:mysql://"+HOST+":"+PORT+"/"+DBNAME+ATTR,USERNAME,PASSWORD);
-		} catch (SQLException e) {
-			// TODO Auto-generated catch block
-			System.out.println("SQL Exception : ");
-			e.printStackTrace();
-		} catch (ClassNotFoundException e) {
-			System.out.println("Class Not Found : ");
-			e.printStackTrace();
-		}
-	}
+//	static {
+//		try {
+//			Class.forName("com.mysql.cj.jdbc.Driver");
+//			conn=DriverManager.getConnection("jdbc:mysql://"+HOST+":"+PORT+"/"+DBNAME+ATTR,USERNAME,PASSWORD);
+//		} catch (SQLException e) {
+//			// TODO Auto-generated catch block
+//			System.out.println("SQL Exception : ");
+//			e.printStackTrace();
+//		} catch (ClassNotFoundException e) {
+//			System.out.println("Class Not Found : ");
+//			e.printStackTrace();
+//		}
+//	}
 	
-	private static boolean reInit() {
-		try {
-			Class.forName("com.mysql.cj.jdbc.Driver");
-			conn=DriverManager.getConnection("jdbc:mysql://"+HOST+":"+PORT+"/"+DBNAME+ATTR,USERNAME,PASSWORD);
-			return true;
-		} catch (SQLException e) {
-			// TODO Auto-generated catch block
-			System.out.println("SQL Exception : ");
-			e.printStackTrace();
-		} catch (ClassNotFoundException e) {
-			System.out.println("Class Not Found : ");
-			e.printStackTrace();
-		}
-		return false;
-	}
+//	private static boolean reInit() {
+//		try {
+//			Class.forName("com.mysql.cj.jdbc.Driver");
+//			conn=DriverManager.getConnection("jdbc:mysql://"+HOST+":"+PORT+"/"+DBNAME+ATTR,USERNAME,PASSWORD);
+//			return true;
+//		} catch (SQLException e) {
+//			// TODO Auto-generated catch block
+//			System.out.println("SQL Exception : ");
+//			e.printStackTrace();
+//		} catch (ClassNotFoundException e) {
+//			System.out.println("Class Not Found : ");
+//			e.printStackTrace();
+//		}
+//		return false;
+//	}
 	
 	public static Connection getConnection() {
+		try {
+			Class.forName("com.mysql.cj.jdbc.Driver");
+			conn=DriverManager.getConnection("jdbc:mysql://"+HOST+":"+PORT+"/"+DBNAME+ATTR,USERNAME,PASSWORD);
+			return conn;
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			System.out.println("SQL Exception : ");
+			e.printStackTrace();
+		} catch (ClassNotFoundException e) {
+			System.out.println("Class Not Found : ");
+			e.printStackTrace();
+		}
 		return conn;
 	}
 	
@@ -66,7 +78,7 @@ public class MyCon {
 		USERNAME="user";
 		PASSWORD="user@3812";
 		if(USERNAME=="user" && PASSWORD=="user@3812") {
-			if(reInit())
+//			if(reInit())
 				return true;
 		}
 		return false;
