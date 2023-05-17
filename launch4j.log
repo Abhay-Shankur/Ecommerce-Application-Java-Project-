@@ -1,0 +1,88 @@
+
+
+Version:	3.50
+CmdLine:	D:\Projects\JavaProjectWithFrame\E-Kart.exe --l4j-debug
+JNI:		No
+WOW64:		Yes
+Working dir:	D:\Projects\JavaProjectWithFrame\.
+Requires JDK:	No
+Requires 64-Bit: No
+Java min ver:	1.004.000
+Java max ver:	
+JRE paths:	C:\Program Files\Java\jdk1.8.0_331\bin
+Check launcher:	C:\Program Files\Java\jdk1.8.0_331\bin\javaw.exe (OK)
+Version string: 1.008.000_331 / 64-Bit (OK)
+Launcher:	C:\Program Files\Java\jdk1.8.0_331\bin\javaw.exe
+Launcher args:	-jar "D:\Projects\JavaProjectWithFrame\E-Kart.exe"
+Args length:	50/32768 chars
+Exit code:	0
+
+
+Version:	3.50
+CmdLine:	D:\Projects\JavaProjectWithFrame\E-Kart.exe --l4j-debug
+JNI:		No
+WOW64:		Yes
+Working dir:	D:\Projects\JavaProjectWithFrame\.
+Requires JDK:	No
+Requires 64-Bit: No
+Java min ver:	1.004.000
+Java max ver:	
+JRE paths:	C:\Program Files\Java\jdk1.8.0_331\bin
+Check launcher:	C:\Program Files\Java\jdk1.8.0_331\bin\javaw.exe (OK)
+Version string: 1.008.000_331 / 64-Bit (OK)
+Launcher:	C:\Program Files\Java\jdk1.8.0_331\bin\javaw.exe
+Launcher args:	-jar "D:\Projects\JavaProjectWithFrame\E-Kart.exe"
+Args length:	50/32768 chars
+Exit code:	0
+
+
+Version:	3.50
+CmdLine:	D:\Projects\JavaProjectWithFrame\E-Kart.exe --l4j-debug
+JNI:		No
+WOW64:		Yes
+Working dir:	D:\Projects\JavaProjectWithFrame\.
+Requires JDK:	No
+Requires 64-Bit: No
+Java min ver:	1.004.000
+Java max ver:	
+Substitute:	JAVA_HOME = 
+Substitute:	PATH = C:\Python311\Scripts\;C:\Python311\;C:\Python27\;C:\Python27\Scripts;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\shank\AppData\Local\Programs\Python\Python310\Scripts;C:\Users\shank\AppData\Local\Programs\Python\Python310\python.exe;C:\Program Files\dotnet\;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Program Files\Java\jdk1.8.0_331\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\shank\miniconda3;C:\Users\shank\miniconda3\Library\mingw-w64\bin;C:\Users\shank\miniconda3\Library\usr\bin;C:\Users\shank\miniconda3\Library\bin;C:\Users\shank\miniconda3\Scripts;C:\Users\shank\AppData\Local\Microsoft\WindowsApps;C:\Users\shank\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\PyCharm 2021.3.3\bin;;C:\Users\shank\.dotnet\tools;C:\xampp\mysql\bin;C:\xampp\mysql\bin;C:\Users\shank\AppData\Roaming\npm;C:\Users\shank\AppData\Local\GitHubDesktop\bin;;C:\Program Files\Java\jdk1.8.0_331\bin
+JRE paths:	;C:\Python311\Scripts\;C:\Python311\;C:\Python27\;C:\Python27\Scripts;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\shank\AppData\Local\Programs\Python\Python310\Scripts;C:\Users\shank\AppData\Local\Programs\Python\Python310\python.exe;C:\Program Files\dotnet\;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Program Files\Java\jdk1.8.0_331\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\shank\miniconda3;C:\Users\shank\miniconda3\Library\mingw-w64\bin;C:\Users\shank\miniconda3\Library\usr\bin;C:\Users\shank\miniconda3\Library\bin;C:\Users\shank\miniconda3\Scripts;C:\Users\shank\AppData\Local\Microsoft\WindowsApps;C:\Users\shank\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\PyCharm 2021.3.3\bin;;C:\Users\shank\.dotnet\tools;C:\xampp\mysql\bin;C:\xampp\mysql\bin;C:\Users\shank\AppData\Roaming\npm;C:\Users\shank\AppData\Local\GitHubDesktop\bin;;C:\Program Files\Java\jdk1.8.0_331\bin
+Check launcher:	C:\Python311\Scripts\bin\javaw.exe (not found)
+Check launcher:	C:\Python311\bin\javaw.exe (not found)
+Check launcher:	C:\Python27\bin\javaw.exe (not found)
+Check launcher:	C:\Python27\Scripts\bin\javaw.exe (not found)
+Check launcher:	C:\WINDOWS\system32\bin\javaw.exe (not found)
+Check launcher:	C:\WINDOWS\bin\javaw.exe (not found)
+Check launcher:	C:\WINDOWS\System32\Wbem\bin\javaw.exe (not found)
+Check launcher:	C:\WINDOWS\System32\WindowsPowerShell\v1.0\bin\javaw.exe (not found)
+Check launcher:	C:\WINDOWS\System32\OpenSSH\bin\javaw.exe (not found)
+Check launcher:	C:\Users\shank\AppData\Local\Programs\Python\Python310\Scripts\bin\javaw.exe (not found)
+Check launcher:	C:\Users\shank\AppData\Local\Programs\Python\Python310\python.exe\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\dotnet\bin\javaw.exe (not found)
+Check launcher:	C:\ProgramData\chocolatey\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\nodejs\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Java\jdk1.8.0_331\bin\javaw.exe (OK)
+Version string: 1.008.000_331 / 64-Bit (OK)
+Launcher:	C:\Program Files\Java\jdk1.8.0_331\bin\javaw.exe
+Launcher args:	-jar "D:\Projects\JavaProjectWithFrame\E-Kart.exe"
+Args length:	50/32768 chars
+Exit code:	0
+
+
+Version:	3.50
+CmdLine:	D:\Projects\JavaProjectWithFrame\E-Kart.exe --l4j-debug
+JNI:		No
+WOW64:		Yes
+Working dir:	D:\Projects\JavaProjectWithFrame\.
+Requires JDK:	No
+Requires 64-Bit: No
+Java min ver:	1.004.000
+Java max ver:	
+JRE paths:	C:\Program Files\Java\jre1.8.0_331
+Check launcher:	C:\Program Files\Java\jre1.8.0_331\bin\javaw.exe (OK)
+Version string: 1.008.000_331 / 64-Bit (OK)
+Launcher:	C:\Program Files\Java\jre1.8.0_331\bin\javaw.exe
+Launcher args:	-jar "D:\Projects\JavaProjectWithFrame\E-Kart.exe"
+Args length:	50/32768 chars
+Exit code:	0
